@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('escrevendo.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #deb2d2;
+    padding: 10px;
+    border-radius: 2px;
+    width: 280px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  #entradaTarefa {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  #botaoAdicionar {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #00ff3c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #botaoAdicionar:hover {
+    background: #0056b3;
+  }
+  
+  #listaTarefas {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #listaTarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  #listaTarefas li button {
+    background: #ff4d4d;
+    border: none;
+    padding: 3px 6px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  #listaTarefas li button:hover {
+    background: #cc0000;
+  }
+  

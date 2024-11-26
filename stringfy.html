@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemplo de código JavaScript para exibir um objeto JSON em um alerta.">
+    <title>Exemplo de JSON em Alerta</title>
+</head>
+<body>
+    <script>
+        const pessoa = {
+            nome: "Walter",
+            idade: 43
+        };
+        const strJSON = JSON.stringify(pessoa);
+        alert(strJSON);
+
+        const objeto= {nome:"Alice", idade:25};
+        const jsonString = JSON.stringify(objeto);
+        console.log(jsonString);
+
+        const jsonString = '{"nome": "Bob",}';
+
+    </script>
+</body>
+</html>
